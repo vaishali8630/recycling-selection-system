@@ -1,37 +1,16 @@
-# Recycling Production Line Manager Selection System assignment
+# React + Vite
 
-This project is a minimal dashboard-based system to evaluate and rank candidates for a Recycling Production Line Manager role.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-It demonstrates database design, AI-based evaluation logic (mocked), and a frontend dashboard for visualization.
+Currently, two official plugins are available:
 
----
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## 🚀 Features
+## React Compiler
 
-- Random generation of 40 candidate profiles
-- Candidate evaluation based on:
-  - Crisis Management
-  - Sustainability Knowledge
-  - Team Motivation
-- Automatic total score calculation
-- Leaderboard showing top candidates
-- Candidate profile cards
-- Share Candidate button (simulated HR workflow)
-- Interactive charts and visualizations
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
----
+## Expanding the ESLint configuration
 
-## 🛠 Tech Stack
-
-- Frontend: React + Vite
-- UI Library: Mantine UI
-- Charts: Recharts
-- Data Generation: Faker.js
-- Database: MySQL (schema provided)
-- AI Evaluation: Mock AI responses
-
----
-
-## 📂 Project Structure
-
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
